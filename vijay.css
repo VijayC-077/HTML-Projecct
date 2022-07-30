@@ -1,18 +1,21 @@
 .wrapper{
     height: 800px;
     position: relative;
-    background: linear-gradient(to top right, #33ccff -62%, #ffcccc 52%)
+    background: linear-gradient(to top right, #33ccff -62%, #ffcccc 52%);
+    display: flex;
+    flex-direction: row;
+   
 }
 .logo1{
     float:left;
-    margin: 118px 0 0 86px;
+        margin: -89px 0 0 86px;
 }
 .girlImage{
     float:right;
 
 }
 .titleword{
-    position: absolute;
+    
     color: hsl(0, 36%, 70%);
     font-family: Josefin Sans;
     letter-spacing: 12px;
@@ -21,7 +24,7 @@
 }
 .secondeWord{
     color: black;
-    margin: 302px 0 0 86px;
+    margin: 5px 0 0 89px;
 }
 .textBox{
     width: 378px;
@@ -31,10 +34,21 @@
     background-color: transparent;
     position: absolute;
     outline: none;
-    margin: 481px 0 0 -153px;
+    margin: 180px 0 0 78px;
     padding: 0 0 0 35px;
 }
 .errorImage{
     position: absolute;
-    margin: 489px 0 0 165px;
+    margin: 190px 0 0 341px;
+}
+.paraContent{
+    color: hsl(0, 36%, 70%);
+    margin: 19px 0 0 84px;
+  
+   
+
+}
+
+.wordWrapper{
+    overflow: hidden;
 }
